@@ -1,21 +1,53 @@
-<<<<<<< HEAD
-# TaskManager
-In this code will have components,stats,props,react and redux
-=======
-# React + Vite
+## 📌 About The Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **Task Manager** is a front-end web application built using
+React.js.
 
-Currently, two official plugins are available:
+It allows users to create tasks, mark them as completed, remove
+unnecessary tasks, and track their daily progress through a simple
+and intuitive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The main objective of this project is to practice React components,
+state management, event handling, JavaScript ES6+ concepts, and
+responsive UI development.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ➕ Add new tasks.
+- ✅ Mark tasks as completed or pending.
+- 🗑️ Delete tasks.
+- 📊 View total, pending, and completed task counts.
+- ⌨️ Add tasks using the Enter key.
+- 📱 Responsive user interface for mobile and desktop.
+- 🎨 Modern UI with gradient colors and styled task cards.
+- ⚡ Dynamic UI updates using React state.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 9e0a7ef (final project)
+| Technology | Purpose |
+|---|---|
+| React.js | Building the user interface |
+| JavaScript (ES6+) | Application logic and interactivity |
+| HTML5 | Page structure |
+| CSS3 | Styling and responsive design |
+| npm | Package management |
+| Git & GitHub | Version control and project hosting |
+| VS Code | Development environment |
+
+## 📂 Project Structure
+
+```text
+TaskManager/
+│
+├── public/
+│
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
